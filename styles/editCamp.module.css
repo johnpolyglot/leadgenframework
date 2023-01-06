@@ -1,0 +1,317 @@
+.main_editcampaigns {
+  width: 100%;
+  margin-top: 15px;
+  /* background: bisque; */
+  /* min-height: 100vh; */
+  display: flex;
+}
+.back_btn {
+  height: 30px;
+  width: 75px;
+  color: #7b7777;
+  background: #fff;
+  border: 0.5px solid #dcdee7;
+  margin-right: 10px;
+}
+.editcampaignallBasicInfo {
+  width: 90%;
+  background-color: #fff;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-top: 7px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+.campaignBasicInfoTwo {
+  width: 90%;
+  background-color: #fff;
+  min-height: 40vh;
+  display: flex;
+  border-radius: 5px;
+  margin-top: 30px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  flex-direction: column;
+}
+
+.main_editcampaignsbasicInfoDiv {
+  width: 100%;
+}
+.underline_campaignBasicInfo {
+  width: 100%;
+  border: 0.5px solid #dcdee7;
+}
+.paragraph_campaignBasicInfo {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+
+.input {
+  width: 30%;
+  background: none;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 2px solid #e5e5e5;
+}
+.inputPublic {
+  width: 30%;
+  background: none;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 2px solid #e5e5e5;
+}
+.input:focus {
+  background-color: #fff;
+
+  outline-color: #5469d4;
+}
+.inputPublic:focus {
+  background-color: #fff;
+
+  outline-color: #5469d4;
+}
+
+.email_input_div {
+  display: flex;
+  margin-top: 10px;
+}
+.email_text {
+  width: 15%;
+  text-align: right;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 21px;
+  text-align: start;
+  color: rgb(73, 71, 71);
+}
+.email_text_public {
+  width: 12%;
+  text-align: right;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 30px;
+  text-align: start;
+  color: rgb(73, 71, 71);
+}
+.dropdown_campaignBasicInfo {
+  width: 30.7%;
+  background: none;
+  height: 45px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 2px solid #e5e5e5;
+}
+.allcampaigns_btn {
+  width: 100px;
+  height: 35px;
+  width: 130px;
+  background: transparent;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 15px;
+  color: #000000;
+  border: 0.5px solid #a29e9e;
+}
+
+.allcampaigns_btn_div {
+  display: flex;
+  align-items: center;
+}
+
+.campaignsId {
+  margin-left: 10px;
+}
+
+.editCampaigns_text {
+  font-size: 11px;
+  font-family: sans-serif;
+  color: #a29e9e;
+}
+
+.editCampaigns_idtext {
+  color: #556bd4;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.campaigns_triggers {
+  width: 90%;
+  background-color: #fff;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-top: 7px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+
+.modal {
+  width: 90%;
+  min-height: 80vh;
+  background-color: #f7fafc;
+  padding: 0px;
+}
+.campaignTriggerHeader {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 10px;
+  align-items: center;
+}
+.finishButton {
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.25rem 0.75rem;
+  position: relative;
+  transition: all 0.2s ease-in;
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+}
+
+.cancelButton {
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.25rem 0.75rem;
+  position: relative;
+  transition: all 0.2s ease-in;
+  background: #fff;
+  border: 1px solid #bdbfc1;
+  color: #1d282f;
+  margin-right: 10px;
+}
+.campaignTriggerText {
+  font-size: 1.125rem;
+}
+.inputDiv {
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 11px 4px rgb(0 0 0 / 4%);
+  padding: 17px;
+}
+.input {
+  border-color: #ced4da;
+  font-size: 0.875rem;
+  height: calc(1.75rem);
+  padding: 0.375rem 0.75rem;
+  width: 90%;
+}
+.modalBody {
+  margin: 20px;
+}
+.ifdiv {
+  background-color: #fff;
+  margin-top: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 11px 4px rgb(0 0 0 / 4%);
+  padding: 17px;
+}
+.ifDiv2 {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 -1.29449px 7.76697px rgb(0 0 0 / 4%),
+    0 7.96196px 51.7798px rgb(0 0 0 / 7%), 0 12.7391px 21.6324px rgb(0 0 0 / 3%),
+    0 14.4571px 11.5657px rgb(0 0 0 / 1%), 0 4.30426px 3.44341px rgb(0 0 0 / 0%),
+    0 1.7911px 1.43288px rgb(0 0 0 / 1%);
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  padding: 7.5px 27px;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 2;
+  margin-top: -18px;
+  color: #5469d4;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.addNewRule {
+  background-color: #5469d4;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  gap: 8px;
+  justify-content: center;
+  outline: 0;
+  transition: background-color 0.4s ease-in-out;
+  padding: 1rem;
+  cursor: pointer;
+}
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+  margin-bottom: 30px;
+}
+.addNewRuleDisable {
+  background-color: #dedede;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  gap: 8px;
+  justify-content: center;
+  outline: 0;
+  transition: background-color 0.4s ease-in-out;
+  padding: 1rem;
+  cursor: pointer;
+}
+.addNewRuleDropdown {
+  position: absolute;
+  background: #fff;
+  z-index: 1000;
+  border: 3px solid rgb(0 0 0 / 4%);
+  border-radius: 10px;
+  width: 150px;
+  margin: 50px;
+  padding: 10px 5px;
+  box-shadow: 0px 0px 15px 4px rgb(0 0 0 / 4%);
+  display: flex;
+  flex-direction: column;
+  /* color: ; */
+}
+.dropdownNames {
+  color: #5469d4;
+  padding: 5px;
+  cursor: pointer;
+  padding: 10px;
+
+}
+.dropdownNames:hover {
+  color: #fff;
+  background-color: #5469d4;
+  /* padding: 20px; */
+}
+.inputCampaignName{
+  width: 30%;
+  background: none;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 2px solid #e5e5e5;
+
+}
+
+
+

@@ -1,0 +1,138 @@
+.main_campaigns{
+    width: 100%;
+    margin-top: 15px;
+    /* background: bisque; */
+    min-height: 100vh;
+    display: flex;
+}
+.back_btn{
+    height: 30px;
+    width: 75px;
+    color: #7b7777;
+    background: #fff;
+    border: 0.5px solid #dcdee7; 
+    margin-right: 10px;
+}
+.campaignBasicInfo{
+    width: 90%;
+    background-color: #fff;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 7px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+.campaignBasicInfoTwo{
+    width: 90%;
+    background-color: #fff;
+    height: 30vh;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    flex-direction: column;
+}
+
+.main_campaignsbasicInfoDiv{
+    width: 100%;
+}
+.underline_campaignBasicInfo{
+    width: 100%;
+    border: 0.5px solid #dcdee7;
+}
+.paragraph_campaignBasicInfo{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+
+.input {
+    width: 30%;
+    background: none;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 2px solid #e5e5e5;;
+}
+.inputPublic {
+    width: 30%;
+    background: none;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 2px solid #e5e5e5;;
+}
+.input:focus{
+  background-color: #fff;
+
+  outline-color:#5469d4 ;
+}
+.inputPublic:focus{
+    background-color: #fff;
+  
+    outline-color:#5469d4 ;
+  }
+
+.email_input_div {
+  display: flex;
+  margin-top: 10px;
+}
+.email_text {
+    width: 15%;
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 21px;
+    text-align: start;
+    color: rgb(73, 71, 71);
+
+}
+.email_text_public {
+    width: 12%;
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 30px;
+    text-align: start;
+    color: rgb(73, 71, 71);
+
+}
+.dropdown_campaignBasicInfo{
+    width: 30.7%;
+    background: none;
+    height: 45px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 2px solid #e5e5e5;;
+
+}
+
+.prev_next_btn_div{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 20vh;
+    margin-top: 20px;
+
+}
+
+.prev_btn{
+    height: 40px;
+    margin-left: 15px;
+    width: 129px;
+    border-radius: 3px;
+    border: 0.5px solid grey;
+}
+.next_btn{
+    height: 40px;
+    margin-left: 15px;
+    background-color: #58b24e;
+    width: 129px;
+    border-radius: 3px;
+    color: #fff;
+    border: 0.5px solid grey;
+}
