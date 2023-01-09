@@ -9,7 +9,7 @@ import Navbar from "../Navbar/Navbar"
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function CreateCampaigns() {
+export default function CreateCampaigns(props) {
   return (
     
 
@@ -36,7 +36,7 @@ export default function CreateCampaigns() {
             </p>
           </div>
           <div>
-            <button className={styles.campaigns_btn}>+ Create your first campaign</button>
+            <button className={styles.campaigns_btn} onClick={props.handleCreateYourFirstCampaigns}>+ Create your first campaign</button>
           </div>
         </div>
       </div>

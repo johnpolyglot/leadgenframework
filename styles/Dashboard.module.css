@@ -85,3 +85,7 @@
 .ul_text_paragraph{
     color: #8686eb;
 }
+
+.courser{
+    cursor: pointer;
+}

@@ -87,6 +87,7 @@
   border: none;
   color: white;
   background: #5469d4;
+  cursor: pointer;
 }
 
 .forgotpassword {

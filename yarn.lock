@@ -542,6 +542,11 @@
   resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz"
   integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
 
+"@remix-run/router@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/@remix-run/router/-/router-1.2.1.tgz"
+  integrity sha512-XiY0IsyHR+DXYS5vBxpoBe/8veTeoRpMHP+vDosLZxL5bnpetzI0igkxkLZS235ldLzyfkxF+2divEwWHP3vMQ==
+
 "@rushstack/eslint-patch@^1.1.3":
   version "1.2.0"
   resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz"
@@ -907,7 +912,7 @@ cosmiconfig@^7.0.0:
 
 create-next-app@^13.1.1:
   version "13.1.1"
-  resolved "https://registry.yarnpkg.com/create-next-app/-/create-next-app-13.1.1.tgz#f5ed62b7eceeca35e926a88d0a7e3ec85cc30c4e"
+  resolved "https://registry.npmjs.org/create-next-app/-/create-next-app-13.1.1.tgz"
   integrity sha512-QCKYuag7covHIRyDcezcf6RnKo1DBmO02ZKp3lD2gYbSo+sPGjT3pq2iD/P9XVeF3vUWsZG+ihpsMEXgI4fWwg==
 
 cross-spawn@^7.0.2, cross-spawn@^7.0.3:
@@ -2112,6 +2117,21 @@ react-is@^18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
+
+react-router-dom@^6.6.1:
+  version "6.6.1"
+  resolved "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.6.1.tgz"
+  integrity sha512-u+8BKUtelStKbZD5UcY0NY90WOzktrkJJhyhNg7L0APn9t1qJNLowzrM9CHdpB6+rcPt6qQrlkIXsTvhuXP68g==
+  dependencies:
+    "@remix-run/router" "1.2.1"
+    react-router "6.6.1"
+
+react-router@6.6.1:
+  version "6.6.1"
+  resolved "https://registry.npmjs.org/react-router/-/react-router-6.6.1.tgz"
+  integrity sha512-YkvlYRusnI/IN0kDtosUCgxqHeulN5je+ew8W+iA1VvFhf86kA+JEI/X/8NqYcr11hCDDp906S+SGMpBheNeYQ==
+  dependencies:
+    "@remix-run/router" "1.2.1"
 
 react-stars@^2.2.5:
   version "2.2.5"

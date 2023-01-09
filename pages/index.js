@@ -5,25 +5,30 @@ import styles from "../styles/Home.module.css";
 import Login from "../Screns/Login/Login";
 import Signup from "../Screns/Signup/Signup";
 const inter = Inter({ subsets: ["latin"] });
-import Link from "next/link";
-import Dashboard from "../Screns/Dashboard/Dashboard";
-import CreateCampaigns from "../Screns/CreateCampaigns/CreateCampaigns";
-import Navbar from "../Screns/Navbar/Navbar";
-import Sidebar from "../Screns/Sidebar/Sidebar";
-import CampaignBasicInfo from "../Screns/CampaignBasicInfo/CampaignBasicInfo";
-import YourCampaigns from "../Screns/YourCampaigns/YourCampaigns";
-import EditCampaigns from "../Screns/EditCampaigns/EditCampaigns";
+import { useRouter } from "next/router";
+
 
 export default function Home() {
+
+  const router = useRouter()
+
+  const handlesignup = () => {
+    router.push("./Login")
+  }
+  const handleCreateCampaigns = () => {
+    router.push("./Dashboard")
+  }
+  
   return (
       <div className={styles.main_container_dashboard}>
-        <Navbar />
+        {/* <Navbar />
 
         <div className={styles.main_campaigns}>
           <Sidebar />
           <EditCampaigns />
 
-        </div>
+        </div> */}
+        <Signup handleCreateCampaigns={handleCreateCampaigns} handlesignup={handlesignup}   />
     </div>
   );
 }

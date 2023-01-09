@@ -11,14 +11,9 @@ import Link from 'next/link';
  
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Signup() {
+export default function Signup(props) {
   const router = useRouter()
 
-
-  const handleClick = (e) => {
-    e.preventDefault()
-    router.push(href)
-  }
   return (
     <div className={styles.maincontainer}>
     <div className={styles.main_login}>
@@ -77,10 +72,10 @@ export default function Signup() {
           <div className={styles.remember}>
             <div className={styles.left_div} />
             <div className={styles.right_div_signup}>
-              <button className={styles.login_btn}>Register</button>
-              <span className={styles.alreadyhaveaccount} >
-               <Link href="./Login/Login"> I already have an account </Link>
-              </span>
+              <button className={styles.login_btn} onClick={props.handleCreateCampaigns}>Register</button>
+              <p className={styles.alreadyhaveaccount} onClick={props.handlesignup}>
+                 I already have an account
+              </p>
               <p className={styles.terms_condition}>
                 {" "}
                 By registering you agree to our <span className={styles.termslink}>terms and conditions</span> 

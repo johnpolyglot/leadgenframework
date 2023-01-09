@@ -10,7 +10,7 @@ import styles from "../../styles/YourCampaigns.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function YourCampaigns() {
+export default function YourCampaigns(props) {
   return (
     <div className={styles.main_campaigns}>
       <div className={styles.main_campaignsbasicInfoDiv}>
@@ -34,7 +34,7 @@ export default function YourCampaigns() {
           </div>
           <div className={styles.yourCampaigns_underline}></div>
 
-          <div className={styles.yourCampaigns_tabletd}>
+          <div className={styles.yourCampaigns_tabletd} onClick={props.handleEditCampaigns}>
             <div className={styles.idDiv}>
               <p className={styles.id}>11360</p>
               <div className={styles.star}>

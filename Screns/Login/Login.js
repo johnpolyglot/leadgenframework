@@ -6,7 +6,7 @@ import styles from "../../styles/Home.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Login() {
+export default function Login(props) {
   return (
     <div className={styles.maincontainer}>
     <div className={styles.main_login}>
@@ -39,11 +39,11 @@ export default function Login() {
                 <input type="checkbox" />
                 <p>Remember Me</p>
               </div>
-              <button className={styles.login_btn}>Login</button>
+              <button onClick={props.handleCreateCampaigns} className={styles.login_btn}>Login</button>
               <span className={styles.forgotpassword}>
                 Forgot Your Password?
               </span>
-              <p>Don't have an account? Sign up</p>
+              <p onClick={props.handleLogin}>Don't have an account? Sign up</p>
             </div>
           </div>
         </div>

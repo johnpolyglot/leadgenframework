@@ -110,14 +110,14 @@ export default function EditCampaigns() {
           <div>
             <p>Campaigns trigger</p>
           </div>
-          <Button onClick={handleOpen}> + NEW</Button>
+          <Button onClick={handleOpen}>+ NEW</Button>
           <Modal
             open={open}
             onClose={handleClose}
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description"
           >
-            <Box sx={style} className={styles.modal}>
+            <Box sx={style} className={styles.modalNewCampaign}>
               <div className={styles.campaignTriggerHeader}>
                 <p className={styles.campaignTriggerText}>
                   Configure Campaign Trigger
